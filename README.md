@@ -175,7 +175,19 @@ Client Name, Email, Project Type, Budget Range, Timeline, Proposal Doc Link, Dat
 This creates a queryable pipeline record without anyone maintaining a spreadsheet manually.
 
 ---
+## Sample Test
 
+```json
+{
+  "client_name": "James & Karen Calloway",
+  "email": "jordan.rideout16@gmail.com",
+  "project_type": "Custom Home Build",
+  "lot_address": "2847 Stillwater Drive, Wilden, Kelowna BC",
+  "budget_range": "$900k - $1.2M",
+  "timeline": "Permits submitted, break ground within 60 days",
+  "special_notes": "Financing approved. Interviewed two other builders. Ready to sign this month. Prioritize energy efficiency and smart home integration."
+}
+```
 ## Screenshots
 
 ### Full Scenario Canvas
