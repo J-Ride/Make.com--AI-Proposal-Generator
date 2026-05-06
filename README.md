@@ -13,7 +13,7 @@
 ## Project Description
 
 A Make.com scenario that converts a lead form submission into a fully formatted,
-client-ready custom home build proposal in under 30 seconds -- with zero manual involvement.
+client-ready custom home build proposal in under 30 seconds with zero manual involvement.
 
 When a webhook receives project details, the scenario sends the data to Groq's LLM API
 with a structured prompt that generates a formal proposal document including a project
@@ -23,7 +23,7 @@ placeholder replacement. The completed proposal is emailed to the client with a
 personalised message, the internal team is notified in Slack, and a row is appended
 to a Google Sheet proposal log for pipeline tracking.
 
-Every output is specific to the client's project -- no generic language, no static templates.
+Every output is specific to the client's project. No generic language, no static templates.
 
 ---
 
@@ -268,8 +268,7 @@ record that requires no manual entry. It also demonstrates that automation outpu
 should feed structured data, not just trigger one-time actions.
 
 **Why the budget phase breakdown is in the prompt:** Generic AI output would say
-"budget breakdown available upon request." Encoding real construction phase percentages
--- site prep, foundation, framing, MEP, finishes -- produces a document a client can
+"budget breakdown available upon request." Encoding real construction phase percentages, site prep, foundation, framing, MEP, finishes and produces a document a client can
 actually use for preliminary financing conversations. The domain knowledge is the
 differentiator, not the API call.
 
