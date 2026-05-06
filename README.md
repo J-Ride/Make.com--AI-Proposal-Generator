@@ -200,7 +200,8 @@ This creates a queryable pipeline record without anyone maintaining a spreadshee
 ![Replace Text](screenshots/replace-text-module.png)
 
 ### Generated Proposal Document
-|--|--|
+| Page 1 | Page 2 |
+|---|---|
 | ![Proposal Output](screenshots/proposal-output1.png) | ![Proposal Output](screenshots/proposal-output2.png) |
 
 ### Client Email Received
