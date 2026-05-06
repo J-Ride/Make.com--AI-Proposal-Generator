@@ -247,19 +247,6 @@ This creates a queryable pipeline record without anyone maintaining a spreadshee
    - `YOUR_GOOGLE_SHEET_ID` in the Google Sheets append module
 6. Run once and send a test webhook payload
 
-**Test Payload:**
-```json
-{
-  "client_name": "James & Karen Calloway",
-  "email": "test@example.com",
-  "project_type": "Custom Home Build",
-  "lot_address": "2847 Stillwater Drive, Wilden, Kelowna BC",
-  "budget_range": "$900k - $1.2M",
-  "timeline": "Permits submitted, break ground within 60 days",
-  "special_notes": "Financing approved. Ready to sign this month. Prioritize energy efficiency and smart home integration."
-}
-```
-
 ---
 
 ## Key Technical Decisions
